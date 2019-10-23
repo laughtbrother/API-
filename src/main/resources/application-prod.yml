@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://129.28.138.56:3306/test?useUnicode=true&amp&characterEncoding=utf-8&amp&serverTimezone=UTC #注意设置编码格式及时区
+    username: root
+    password: root
+    initialSize: 3
+    minidle: 3
+    maxActive: 18
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    validationQuery: SELECT 1 FROM dual
+    filters: stat,wall,log4j
+mybatis:
+  mapper-locations: classpath*:mybatis/*.xml
+logging:
+  #  config: classpath:log4j2.yml
+  file: /log/apilog.log
