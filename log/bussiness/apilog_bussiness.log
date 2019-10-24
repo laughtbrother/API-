@@ -1,4 +1,0 @@
-2019-10-22 11:38:28.757 - INFO  [nio-8080-exec-7] c.m.d.c.UserController         : getBussinessLogger===业务日志测试
-2019-10-22 13:59:08.927 - INFO  [nio-8080-exec-7] c.m.d.c.UserController         : getBussinessLogger===业务日志测试
-2019-10-22 14:00:26.146 - INFO  [nio-8080-exec-7] c.m.d.c.UserController         : getBussinessLogger===业务日志测试
-2019-10-22 14:02:06.267 -ERROR  [nio-8080-exec-7] c.m.d.c.UserController         : getBussinessLogger===业务日志测试

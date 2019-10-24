@@ -1,277 +1,38 @@
-2019-10-22 11:35:39.794 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 7364 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 11:35:39.806 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 11:35:41.886 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 11:35:41.918 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
-2019-10-22 11:35:42.374 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$719ad527] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 11:35:42.781 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 11:35:42.836 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 11:35:42.851 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 11:35:42.852 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 11:35:42.977 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 11:35:42.977 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2904 ms
-2019-10-22 11:35:44.052 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 11:35:44.370 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 11:35:44.384 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 11:35:44.395 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 11:35:44.631 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 11:35:44.669 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 11:35:44.675 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 5.438 seconds (JVM running for 7.207)
-2019-10-22 11:37:52.587 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 7472 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 11:37:52.597 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 11:37:53.802 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 11:37:53.824 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
-2019-10-22 11:37:54.139 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$888983ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 11:37:54.397 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 11:37:54.411 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 11:37:54.422 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 11:37:54.423 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 11:37:54.534 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 11:37:54.534 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1859 ms
-2019-10-22 11:37:55.440 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 11:37:55.663 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 11:37:55.681 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 11:37:55.693 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 11:37:55.878 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 11:37:55.902 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 11:37:55.905 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 3.956 seconds (JVM running for 5.552)
-2019-10-22 11:38:17.994 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-10-22 11:38:17.994 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
-2019-10-22 11:38:18.002 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 7 ms
-2019-10-22 11:38:28.277 - INFO  [nio-8080-exec-7] c.a.d.s.l.Log4j2Impl           : {dataSource-1} inited
-2019-10-22 12:08:42.588 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 1172 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 12:08:42.650 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 12:08:43.553 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 12:08:43.572 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-2019-10-22 12:08:43.887 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee3ff0d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 12:08:44.161 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 12:08:44.175 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 12:08:44.187 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 12:08:44.187 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 12:08:44.304 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 12:08:44.305 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1548 ms
-2019-10-22 12:08:45.197 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 12:08:45.429 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 12:08:45.443 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 12:08:45.454 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 12:08:45.646 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 12:08:45.670 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 12:08:45.673 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 3.819 seconds (JVM running for 5.5)
-2019-10-22 12:08:59.373 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-10-22 12:08:59.373 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
-2019-10-22 12:08:59.381 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 8 ms
-2019-10-22 12:09:21.945 - INFO  [nio-8080-exec-7] c.a.d.s.l.Log4j2Impl           : {dataSource-1} inited
-2019-10-22 12:09:22.458 - INFO  [nio-8080-exec-7] c.m.d.c.UserController         : 获取用户列表成功
-2019-10-22 12:10:57.356 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 7932 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 12:10:57.365 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 12:11:02.385 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 10028 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 12:11:02.447 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 12:11:03.549 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 12:11:03.572 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
-2019-10-22 12:11:03.861 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eca9cbe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 12:11:04.153 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 12:11:04.168 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 12:11:04.179 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 12:11:04.180 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 12:11:04.294 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 12:11:04.294 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1785 ms
-2019-10-22 12:11:05.234 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 12:11:05.496 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 12:11:05.509 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 12:11:05.521 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 12:11:05.705 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 12:11:05.731 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 12:11:05.734 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 3.903 seconds (JVM running for 5.524)
-2019-10-22 12:11:17.934 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-10-22 12:11:17.935 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
-2019-10-22 12:11:17.942 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 7 ms
-2019-10-22 12:11:32.442 - INFO  [nio-8080-exec-7] c.a.d.s.l.Log4j2Impl           : {dataSource-1} inited
-2019-10-22 12:11:32.988 - INFO  [nio-8080-exec-7] c.m.d.c.UserController         : 获取用户列表成功
-2019-10-22 13:50:01.556 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 9668 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 13:50:01.570 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 13:50:02.898 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 13:50:02.927 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
-2019-10-22 13:50:03.399 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$489ed46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 13:50:03.875 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 13:50:03.897 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:50:03.911 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 13:50:03.912 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 13:50:04.059 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 13:50:04.059 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2371 ms
-2019-10-22 13:50:05.318 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 13:50:05.646 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 13:50:05.669 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 13:50:05.692 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 13:50:05.988 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:50:06.028 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 13:50:06.033 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 5.533 seconds (JVM running for 7.911)
-2019-10-22 13:50:13.055 - INFO  [      Thread-15] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-10-22 13:50:17.346 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 9244 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 13:50:17.396 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 13:50:18.703 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 13:50:18.721 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2019-10-22 13:50:19.048 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4daa17dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 13:50:19.315 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 13:50:19.328 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:50:19.339 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 13:50:19.339 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 13:50:19.471 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 13:50:19.471 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1890 ms
-2019-10-22 13:50:20.400 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 13:50:20.650 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 13:50:20.668 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 13:50:20.683 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 13:50:20.882 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:50:20.906 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 13:50:20.909 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 4.075 seconds (JVM running for 5.707)
-2019-10-22 13:51:15.390 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 8560 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 13:51:15.400 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 13:51:16.644 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 13:51:16.661 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2019-10-22 13:51:16.964 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dfe19409] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 13:51:17.244 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 13:51:17.258 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:51:17.270 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 13:51:17.270 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 13:51:17.400 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 13:51:17.400 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1929 ms
-2019-10-22 13:51:18.281 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 13:51:18.504 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 13:51:18.518 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 13:51:18.531 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 13:51:18.720 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:51:18.744 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 13:51:18.747 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 4.101 seconds (JVM running for 5.861)
-2019-10-22 13:51:34.980 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-10-22 13:51:34.980 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
-2019-10-22 13:51:34.989 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 9 ms
-2019-10-22 13:51:44.763 - INFO  [nio-8080-exec-7] c.a.d.s.l.Log4j2Impl           : {dataSource-1} inited
-2019-10-22 13:51:45.268 - INFO  [nio-8080-exec-7] c.m.d.c.UserController         : 获取用户列表成功
-2019-10-22 13:56:16.043 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 1984 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 13:56:16.064 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 13:56:17.189 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 13:56:17.206 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
-2019-10-22 13:56:17.532 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88e534db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 13:56:17.811 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 13:56:17.825 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:56:17.836 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 13:56:17.837 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 13:56:17.967 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 13:56:17.968 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1763 ms
-2019-10-22 13:56:18.825 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 13:56:19.051 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 13:56:19.065 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 13:56:19.077 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 13:56:19.256 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:56:19.280 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 13:56:19.283 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 3.846 seconds (JVM running for 5.492)
-2019-10-22 13:56:35.669 - INFO  [nio-8080-exec-2] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-10-22 13:56:35.669 - INFO  [nio-8080-exec-2] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
-2019-10-22 13:56:35.679 - INFO  [nio-8080-exec-2] o.s.w.s.FrameworkServlet       : Completed initialization in 9 ms
-2019-10-22 13:56:42.796 - INFO  [nio-8080-exec-7] c.a.d.s.l.Log4j2Impl           : {dataSource-1} inited
-2019-10-22 13:56:43.287 - INFO  [nio-8080-exec-7] c.m.d.c.UserController         : 获取用户列表成功
-2019-10-22 13:57:55.424 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 9100 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 13:57:55.445 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 13:57:56.580 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 13:57:56.598 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2019-10-22 13:57:56.972 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bdb7a6d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 13:57:57.244 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 13:57:57.258 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:57:57.270 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 13:57:57.271 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 13:57:57.386 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 13:57:57.386 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1771 ms
-2019-10-22 13:57:58.335 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 13:57:58.712 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 13:57:58.737 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 13:57:58.760 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 13:57:59.081 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:57:59.117 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 13:57:59.124 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 4.317 seconds (JVM running for 5.946)
-2019-10-22 13:58:44.787 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 1980 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 13:58:44.795 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 13:58:46.816 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 13:58:46.833 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2019-10-22 13:58:47.150 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef79b091] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 13:58:47.423 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 13:58:47.438 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:58:47.451 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 13:58:47.452 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 13:58:47.569 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 13:58:47.569 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2699 ms
-2019-10-22 13:58:48.516 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 13:58:48.734 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 13:58:48.748 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 13:58:48.763 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 13:58:48.969 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 13:58:48.993 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 13:58:48.996 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 4.931 seconds (JVM running for 6.829)
-2019-10-22 13:58:59.344 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-10-22 13:58:59.344 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
-2019-10-22 13:58:59.352 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 8 ms
-2019-10-22 13:59:08.418 - INFO  [nio-8080-exec-7] c.a.d.s.l.Log4j2Impl           : {dataSource-1} inited
-2019-10-22 13:59:58.514 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 8008 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 13:59:58.548 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 13:59:59.805 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 13:59:59.823 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2019-10-22 14:00:00.120 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88e534db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 14:00:00.395 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 14:00:00.409 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 14:00:00.421 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 14:00:00.421 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 14:00:00.553 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 14:00:00.554 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1829 ms
-2019-10-22 14:00:01.432 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 14:00:01.652 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 14:00:01.666 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 14:00:01.678 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 14:00:01.859 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 14:00:01.883 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 14:00:01.886 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 3.932 seconds (JVM running for 5.728)
-2019-10-22 14:00:14.850 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-10-22 14:00:14.850 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
-2019-10-22 14:00:14.859 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 9 ms
-2019-10-22 14:00:25.649 - INFO  [nio-8080-exec-7] c.a.d.s.l.Log4j2Impl           : {dataSource-1} inited
-2019-10-22 14:01:47.701 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 3580 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 14:01:47.710 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 14:01:49.040 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 14:01:49.058 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
-2019-10-22 14:01:49.358 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6707afd8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 14:01:49.663 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 14:01:49.678 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 14:01:49.691 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 14:01:49.692 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 14:01:49.810 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 14:01:49.811 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1949 ms
-2019-10-22 14:01:50.667 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 14:01:50.887 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 14:01:50.900 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 14:01:50.912 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 14:01:51.096 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 14:01:51.120 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 14:01:51.124 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 4.077 seconds (JVM running for 5.738)
-2019-10-22 14:01:57.767 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-10-22 14:01:57.768 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
-2019-10-22 14:01:57.776 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 8 ms
-2019-10-22 14:02:05.730 - INFO  [nio-8080-exec-7] c.a.d.s.l.Log4j2Impl           : {dataSource-1} inited
-2019-10-22 14:03:06.199 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on yangyang with PID 8572 (started by Administrator in H:\练习\mybatisdemo1)
-2019-10-22 14:03:06.209 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
-2019-10-22 14:03:07.333 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-10-22 14:03:07.350 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
-2019-10-22 14:03:07.660 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ce659bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-10-22 14:03:07.974 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8080 (http)
-2019-10-22 14:03:07.988 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8080"]
-2019-10-22 14:03:07.999 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
-2019-10-22 14:03:07.999 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.26]
-2019-10-22 14:03:08.115 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
-2019-10-22 14:03:08.115 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1836 ms
-2019-10-22 14:03:09.038 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
-2019-10-22 14:03:09.268 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
-2019-10-22 14:03:09.285 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2019-10-22 14:03:09.297 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
-2019-10-22 14:03:09.484 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8080"]
-2019-10-22 14:03:09.508 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8080 (http) with context path ''
-2019-10-22 14:03:09.511 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 4.091 seconds (JVM running for 5.818)
-2019-10-22 14:03:33.930 - INFO  [nio-8080-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-10-22 14:03:33.931 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
-2019-10-22 14:03:33.940 - INFO  [nio-8080-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 9 ms
-2019-10-22 14:03:44.292 - INFO  [nio-8080-exec-7] c.a.d.s.l.Log4j2Impl           : {dataSource-1} inited
+2019-10-24 09:05:30.751  INFO 9032 --- [main] com.mybatisdemo1.demo.DemoApplication    : Starting DemoApplication on yangyang with PID 9032 (started by Administrator in H:\练习\mybatisdemo1\API-)
+2019-10-24 09:05:30.755  INFO 9032 --- [main] com.mybatisdemo1.demo.DemoApplication    : The following profiles are active: prod
+2019-10-24 09:05:32.040  INFO 9032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-24 09:05:32.065  INFO 9032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-10-24 09:05:32.554  INFO 9032 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b428f899] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-24 09:05:33.427  INFO 9032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-24 09:05:33.480  INFO 9032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 09:05:33.480  INFO 9032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 09:05:33.676  INFO 9032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 09:05:33.676  INFO 9032 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2818 ms
+2019-10-24 09:05:35.412  INFO 9032 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:05:35.980  INFO 9032 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-24 09:05:36.023  INFO 9032 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-24 09:05:36.090  INFO 9032 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-24 09:05:36.578  INFO 9032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 09:05:36.583  INFO 9032 --- [main] com.mybatisdemo1.demo.DemoApplication    : Started DemoApplication in 6.759 seconds (JVM running for 8.798)
+2019-10-24 09:05:52.015  INFO 8064 --- [main] com.mybatisdemo1.demo.DemoApplication    : Starting DemoApplication on yangyang with PID 8064 (started by Administrator in H:\练习\mybatisdemo1\API-)
+2019-10-24 09:05:52.019  INFO 8064 --- [main] com.mybatisdemo1.demo.DemoApplication    : The following profiles are active: prod
+2019-10-24 09:05:53.187  INFO 8064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-24 09:05:53.206  INFO 8064 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-10-24 09:05:53.532  INFO 8064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cad7cc80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-24 09:05:53.813  INFO 8064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-24 09:05:53.836  INFO 8064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-24 09:05:53.837  INFO 8064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-24 09:05:53.954  INFO 8064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-24 09:05:53.955  INFO 8064 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1768 ms
+2019-10-24 09:05:54.966  INFO 8064 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:05:55.214  INFO 8064 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-10-24 09:05:55.229  INFO 8064 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-10-24 09:05:55.241  INFO 8064 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-10-24 09:05:55.538  INFO 8064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-24 09:05:55.541  INFO 8064 --- [main] com.mybatisdemo1.demo.DemoApplication    : Started DemoApplication in 4.497 seconds (JVM running for 5.665)
+2019-10-24 09:06:11.100  INFO 8064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-24 09:06:11.100  INFO 8064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-24 09:06:11.108  INFO 8064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-10-24 09:06:11.135 ERROR 8064 --- [http-nio-8080-exec-1] c.m.demo.exception.MyControllerAdvice    : Required String parameter 'id' is not present
+2019-10-24 09:06:18.788  INFO 8064 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-10-24 09:06:19.993 ERROR 8064 --- [http-nio-8080-exec-2] c.m.demo.controller.UserController       : 获取用户列表成功Thu Oct 24 09:06:19 GMT+08:00 2019

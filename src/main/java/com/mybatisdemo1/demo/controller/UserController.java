@@ -252,12 +252,12 @@ public class UserController {
         PageHelper.startPage(page, pageSize);
         List<UserEntity> list = mUserService.getUserList();
         PageInfo<UserEntity> pageInfo = new PageInfo<>(list);
-        logger.error("获取用户列表成功");
+        logger.error("获取用户列表成功"+new Date());
 //        Logger log = LogUtils.getExceptionLogger();
-        Logger log1 = LogUtils.getBussinessLogger();
+//        Logger log1 = LogUtils.getBussinessLogger();
 //        Logger log2 = LogUtils.getDBLogger();
 //        log.error("getExceptionLogger===异常日志测试");
-//        log1.error("getBussinessLogger===业务日志测试");
+//        log1.error("getBussinessLogger===获取用户列表成功");
 //        log2.debug("getDBLogger===数据库日志测试");
         return BaseEntity.
                 success(pageInfo.getList());

@@ -17,5 +17,5 @@ spring:
 mybatis:
   mapper-locations: classpath*:mybatis/*.xml
 logging:
-  #  config: classpath:log4j2.yml
-  file: /log/apilog.log
+#  config: classpath:log4j2.yml
+  file: ./log/apilog.log
